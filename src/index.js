@@ -20,7 +20,6 @@ function formatDate(date) {
   ];
 
   let day = days[dayIndex];
-
   return `${day} ${hours}:${minutes},`;
 }
 
