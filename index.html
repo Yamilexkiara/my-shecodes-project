@@ -11,6 +11,7 @@
     <title>Weather App</title>
   </head>
   <body>
+    <div class="weather-app">
     <div class= "container">
     <nav class="navbar navbar-light bg-light">
       <div class="container-search">
@@ -25,15 +26,17 @@
           />
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
+      <div class="col-3"><button class="btn btn-success w-300" id= "current-location-button">Current</button></div>
     </nav>
     <div class="weathernow">
+    <div class="weatherNow">
+      <div class="row">
       <h1 id="city">New York</h1>
     <div id="date"> Tuesday 6:45, </div>
           <div id="description"> partly cloudly </div>
     </div>
     <div>
       <span class="temperature" id="temperature"> 58 </span>
-
       <span class="units">
         <a href="#" id="fahrenheit-link">°F</a>|
         <a href="#" id="celcius-link">°C</a></span
@@ -42,14 +45,20 @@
         Percipitation:
         <span id="percipitation">0</span> %
       </li>
+    </div>
+       <div class="col-6">
+  
       <li>Wind: <span id="wind">0</span>%</li>
       <li>Humidty: <span id="humidity"></span>%</li>
-      <img
-        alt="Partly cloudy"
-        src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-      />
-</div>
-    <a href="https://github.com/Yamilexkiara/my-shecodes-project"target=_blank>Open-source code</a> by Yamilex Ortiz
+      
+      </div>
+      </div>
+     
+  <div class="weatherForecast row"><div class="col"><div class="WeatherForecastPreview"><div class="forecast-time">Fri</div><canvas width="38" height="38"></canvas><div class="forecast-temperature"><span class="forecast-temperature-max">11°</span><span class="forecast-temperature-min">6°</span></div></div></div><div class="col"><div class="WeatherForecastPreview"><div class="forecast-time">Sat</div><canvas width="38" height="38"></canvas><div class="forecast-temperature"><span class="forecast-temperature-max">11°</span><span class="forecast-temperature-min">6°</span></div></div></div><div class="col"><div class="WeatherForecastPreview"><div class="forecast-time">Sun</div><canvas width="38" height="38"></canvas><div class="forecast-temperature"><span class="forecast-temperature-max">13°</span><span class="forecast-temperature-min">8°</span></div></div></div><div class="col"><div class="WeatherForecastPreview"><div class="forecast-time">Mon</div><canvas width="38" height="38"></canvas><div class="forecast-temperature"><span class="forecast-temperature-max">16°</span><span class="forecast-temperature-min">8°</span></div></div></div><div class="col"><div class="WeatherForecastPreview"><div class="forecast-time">Tue</div><canvas width="38" height="38"></canvas><div class="forecast-temperature"><span class="forecast-temperature-max">17°</span><span class="forecast-temperature-min">11°</span></div></div></div></div>
+      </div>
+     </div>
+  <a class="link" href="https://github.com/Yamilexkiara/my-shecodes-project"target=_blank>Open-source code</a> by Yamilex Ortiz
+
     <script src="src/index.js" ;></script>
   </body>
 </html>
