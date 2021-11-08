@@ -31,3 +31,6 @@ div {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+.wind-humid {
+  float: right;
+}
