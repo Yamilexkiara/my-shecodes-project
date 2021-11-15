@@ -1,7 +1,19 @@
 body {
   text-align: center;
 }
-
+h1 {
+  text-align: left;
+}
+.overview {
+  padding-left: 50px;
+}
+.container {
+  list-style-type: none;
+}
+.col-4 {
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 0 auto;
@@ -9,7 +21,6 @@ body {
   border: 1px solid #dadeda;
   border-radius: 10px;
 }
-
 .weather-temperature .active {
   color: black;
   cursor: default;
@@ -17,4 +28,27 @@ body {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+.weather-forecast-temperature-min {
+  color: rgb(119, 116, 111);
+}
+#wind-humid {
+  list-style-type: none;
+  margin: auto;
+}
+
+#finalLink {
+  list-style-type: none;
+  text-align: center;
+}
+#fahrenheit-link {
+  color: black;
+  text-decoration: none;
+}
+#celcius-link {
+  color: black;
+  text-decoration: none;
+}
+#temperature {
+  font-size: 50px;
 }
