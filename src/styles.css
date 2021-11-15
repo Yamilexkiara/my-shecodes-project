@@ -6,6 +6,7 @@ h1 {
 }
 .overview {
   padding-left: 50px;
+  color: rgb(119, 116, 111);
 }
 .container {
   list-style-type: none;
@@ -35,6 +36,7 @@ h1 {
 #wind-humid {
   list-style-type: none;
   margin: auto;
+  color: rgb(119, 116, 111);
 }
 
 #finalLink {
