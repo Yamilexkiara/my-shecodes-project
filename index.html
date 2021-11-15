@@ -11,8 +11,9 @@
     <title>Weather App</title>
   </head>
   <body>
-    <div class="weather-app">
     <div class= "container">
+      <div class= "weather-app-wrapper">
+      <div class="weather-app">
     <nav class="navbar navbar-light bg-light">
       <div class="container-search">
         <a class="navbar-brand"></a>
@@ -30,7 +31,7 @@
       <div class="col-3"><button class="btn btn-success w-300" id= "current-location-button">Current</button></div>
     </nav>
     <div class="weatherNow">
-      <div class="row">
+      
       <h1 id="city">New York</h1>
     <div class="overview">
       <li id="date">Tuesday 6:45,</li>
@@ -50,26 +51,18 @@
         <a href="#" id="celcius-link">°C</a></span
       >
     </div>
+   
        <div class="col-6" id="wind-humid">
       <li>Wind: <span id="wind">0</span>%</li>
       <li>Humidty: <span id="humidity"></span>%</li>
       </div>
       </div>
-  <div class="weather-forecast">
-    <div class="row">
-      <div class="col-2">
-        Thu
-        <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="" width="56" id="weekday-img"/>
-        <div class="weather-forecast-temperatures">
-          <span class="weather-forecast-temperature-max">18°</span>
-          <span class="weather-forecast-temperature-min">12°</span>
-      </div>
-    </div>
-  </div>
+  <div class="weather-forecast" id="forecast">
+ </div>
   </div>
      </div>
   <a class="link" href="https://github.com/Yamilexkiara/my-shecodes-project"target=_blank>Open-source code</a> by Yamilex Ortiz
-
+</div>
     <script src="src/index.js" ;></script>
   </body>
 </html>
