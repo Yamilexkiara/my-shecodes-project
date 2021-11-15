@@ -1,28 +1,15 @@
 body {
   text-align: center;
 }
-li {
-  color: #878787;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-div {
-  text-align: center;
-}
-.weather-app {
+
+.weather-app-wrapper {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #dadeda;
   border-radius: 10px;
 }
-.logo img {
-  display: block;
-}
-.col-6 {
-  float: right;
-}
+
 .weather-temperature .active {
   color: black;
   cursor: default;
@@ -30,7 +17,4 @@ div {
 
 .weather-temperature .active:hover {
   text-decoration: none;
-}
-.wind-humid {
-  float: right;
 }
